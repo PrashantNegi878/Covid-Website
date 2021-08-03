@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symptom Checker</title>
+    <link rel="shortcut icon" href="./static/images/plus-medical-regular-24.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;700;900&display=swap"
+        rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./static/css/grid.css">
+    <link rel="stylesheet" href="./static/css/app.css">
+    <link rel="stylesheet" href="./static/css/symptomchecker.css">
+</head>
+
+<body>
+
+
+    <!-- top nav -->
+    <div class="nav-wrapper">
+        <div class="container">
+            <div class="nav">
+                <a href="" class="logo">
+                    <center>
+                        <p class="logo-text">SYMPT<i class='bx bxs-virus bx-spin'></i>M CHECKER</p>
+                    </center>
+                </a>
+                <!-- <a href="livetracker.html" class="nav-items">
+                    LIVE TRACKER
+                </a>
+                <a href="index.html" class="nav-items">
+                    HOME PAGE
+                </a> -->
+                <a></a>
+                <a></a>
+                <a></a>
+                <a></a>
+                <a></a>
+                <a></a>
+                <a></a>
+                <a></a>
+                <a></a>
+
+
+
+                <!-- here -->
+                <div id="sidebar1" class="sidebar"
+                    aria-label="Main sidebar containing navigation links and some information" aria-hidden="true">
+                    <div class="sidebar__content">
+                        <a href="./index.html">
+                            <div class="side_content box box-hover">
+                                <h5>Home Page</h5>
+                            </div>
+                        </a>
+                        <a href="./livetracker.html">
+                            <div class="side_content box box-hover">
+                                <h5>Live Tracker</h5>
+                            </div>
+                        </a>
+                        <button type="button" class="side_content box box-hover collapsible">
+                            <h5>About Me</h5>
+                        </button>
+                        <div class="content">
+                            <p>
+                                <center> Name : Prashant Negi <br>
+                                    MCA 2nd Sem<br>
+                                    Graphic Era University,<br> Dehradun
+                                </center>
+                            </p>
+                        </div>
+                        <!-- <span>whatever you want</span> -->
+                    </div>
+                </div>
+                <!-- <button data-toggle-sidebar="sidebar1"><i class='bx bx-menu'></i></button> -->
+                <i data-toggle-sidebar="sidebar1" class='bx bx-menu'></i>
+                <!-- here -->
+
+
+                <div class="darkmode-switch" id="darkmode-switch">
+                    <span>
+                        <i class='bx bx-sun'></i>
+                        <i class='bx bxs-sun'></i>
+                    </span>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+    <!-- end top nav -->
+
+
+    <div class="content">
+        <div class="container">
+
+
+
+            <div class="row">
+                <div class="col-10 col-md-10 col-sm-12">
+                    <div class="box box-hover">
+
+                        <div class="info">
+                            <h4>I'm taking this for:
+                                <br>
+                                <div class="rbhvr">
+                                    <input type="radio" id="who1" name="who" class="rb">
+                                    <label for="who1">Myself</label>
+                                </div>
+                                <!-- <br> -->
+                                <div class="rbhvr">
+                                    <input type="radio" id="who2" name="who" class="rb">
+                                    <label for="who2">Someone Else</label>
+                                </div>
+                            </h4>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-10 col-md-10 col-sm-12">
+                    <div class="box box-hover">
+
+                        <div class="info">
+                            <h4>Do you have any of the following symptoms?
+                                <div class="cbhvr">
+                                    <input type="checkbox" id="followingsymptoms1" name="followingsymptoms" class="cb">
+                                    <label for="followingsymptoms1">Blueish face or lips</label>
+                                </div>
+                                <div class="cbhvr">
+                                    <input type="checkbox" id="followingsymptoms2" name="followingsymptoms" class="cb">
+                                    <label for="followingsymptoms2">Confusion</label>
+                                </div>
+                                <div class="cbhvr">
+                                    <input type="checkbox" id="followingsymptoms3" name="followingsymptoms" class="cb">
+                                    <label for="followingsymptoms3">Slurred speech</label>
+                                </div>
+                                <div class="cbhvr">
+                                    <input type="checkbox" id="followingsymptoms4" name="followingsymptoms" class="cb">
+                                    <label for="followingsymptoms4">Trouble waking up</label>
+                                </div>
+                                <div class="cbhvr">
+                                    <input type="checkbox" id="followingsymptoms5" name="followingsymptoms" class="cb">
+                                    <label for="followingsymptoms5">Pain or pressure in your chest that won't go
+                                        away</label>
+                                </div>
+                                <div class="cbhvr">
+                                    <input type="checkbox" id="followingsymptoms6" name="followingsymptoms" class="cb">
+                                    <label for="followingsymptoms6">Trouble breathing</label>
+                                </div>
+                                <div class="cbhvr">
+                                    <input type="checkbox" id="followingsymptoms7" name="followingsymptoms" class="cb">
+                                    <label for="followingsymptoms7">None of the above</label>
+                                </div>
+                            </h4>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-10 col-md-10 col-sm-12">
+                    <div class="box box-hover">
+
+                        <div class="info">
+                            <h4>Please tell us about yourself
+
+                                <div class="rbhvr">
+                                    <input type="radio" id="gender1" name="gender" class="rb">
+                                    <label for="gender1">Male</label>
+                                </div>
+                                <div class="rbhvr">
+                                    <input type="radio" id="gender2" name="gender" class="rb">
+                                    <label for="gender2">Female</label>
+                                </div>
+                                <br>
+                                Age :
+                                <input type="text" class="tb" placeholder="Type Your Age Here"><br>
+                            </h4>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col-10 col-md-10 col-sm-12">
+                    <div class="box box-hover">
+
+                        <div class="info">
+                            <h4>What other symptoms are you feeling?
+                                Check all that apply
+                                <div class="cbhvr">
+                                    <input type="checkbox" id="2followingsymptoms1" name="followingsymptoms" class="cb">
+                                    <label for="2followingsymptoms1">Fever</label>
+                                </div>
+                                <div class="cbhvr">
+                                    <input type="checkbox" id="2followingsymptoms2" name="followingsymptoms" class="cb">
+                                    <label for="2followingsymptoms2">Fatigue</label>
+                                </div>
+                                <div class="cbhvr">
+                                    <input type="checkbox" id="2followingsymptoms3" name="followingsymptoms" class="cb">
+                                    <label for="2followingsymptoms3">Sore throat</label>
+                                </div>
+                                <div class="cbhvr">
+                                    <input type="checkbox" id="2followingsymptoms4" name="followingsymptoms" class="cb">
+                                    <label for="2followingsymptoms4">Dry cough</label>
+                                </div>
+                                <div class="cbhvr">
+                                    <input type="checkbox" id="2followingsymptoms5" name="followingsymptoms" class="cb">
+                                    <label for="2followingsymptoms5">Shortness of breath</label>
+                                </div>
+                                <div class="cbhvr">
+                                    <input type="checkbox" id="2followingsymptoms6" name="followingsymptoms" class="cb">
+                                    <label for="2followingsymptoms6">Loss of smell</label>
+                                </div>
+                                <div class="cbhvr">
+                                    <input type="checkbox" id="2followingsymptoms7" name="followingsymptoms" class="cb">
+                                    <label for="2followingsymptoms7">Diarrhea</label>
+                                </div>
+                                <div class="cbhvr">
+                                    <input type="checkbox" id="2followingsymptoms8" name="followingsymptoms" class="cb">
+                                    <label for="2followingsymptoms8">Body aches</label>
+                                </div>
+                                <div class="cbhvr">
+                                    <input type="checkbox" id="2followingsymptoms9" name="followingsymptoms" class="cb">
+                                    <label for="2followingsymptoms9">Headache</label>
+                                </div>
+                                <div class="cbhvr">
+                                    <input type="checkbox" id="2followingsymptoms10" name="followingsymptoms"
+                                        class="cb">
+                                    <label for="2followingsymptoms10">Pink Eye (Conjunctivitis)</label>
+                                </div>
+                                <div class="cbhvr">
+                                    <input type="checkbox" id="2followingsymptoms11" name="followingsymptoms"
+                                        class="cb">
+                                    <label for="2followingsymptoms11">None of the above</label>
+                                </div>
+                            </h4>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="col-10 col-md-10 col-sm-12">
+                    <div class="box box-hover">
+
+                        <div class="info">
+                            <h4>Do you have any of these medical issues?
+                                Check all that apply
+                                <div class="cbhvr">
+                                    <input type="checkbox" id="3followingsymptoms1" name="followingsymptoms" class="cb">
+                                    <label for="3followingsymptoms1">Asthma</label>
+                                </div>
+                                <div class="cbhvr">
+                                    <input type="checkbox" id="3followingsymptoms2" name="followingsymptoms" class="cb">
+                                    <label for="3followingsymptoms2">High blood pressure</label>
+                                </div>
+                                <div class="cbhvr">
+                                    <input type="checkbox" id="3followingsymptoms3" name="followingsymptoms" class="cb">
+                                    <label for="3followingsymptoms3">COPD/emphysema</label>
+                                </div>
+                                <div class="cbhvr">
+                                    <input type="checkbox" id="3followingsymptoms4" name="followingsymptoms" class="cb">
+                                    <label for="3followingsymptoms4">Stroke</label>
+                                </div>
+                                <div class="cbhvr">
+                                    <input type="checkbox" id="3followingsymptoms5" name="followingsymptoms" class="cb">
+                                    <label for="3followingsymptoms5">Chronic kidney disease</label>
+                                </div>
+                                <div class="cbhvr">
+                                    <input type="checkbox" id="3followingsymptoms6" name="followingsymptoms" class="cb">
+                                    <label for="3followingsymptoms6">Chronic lung disease</label>
+                                </div>
+                                <div class="cbhvr">
+                                    <input type="checkbox" id="3followingsymptoms7" name="followingsymptoms" class="cb">
+                                    <label for="3followingsymptoms7">Cancer</label>
+                                </div>
+                                <div class="cbhvr">
+                                    <input type="checkbox" id="3followingsymptoms8" name="followingsymptoms" class="cb">
+                                    <label for="3followingsymptoms8">Diabetes</label>
+                                </div>
+                                <div class="cbhvr">
+                                    <input type="checkbox" id="3followingsymptoms9" name="followingsymptoms" class="cb">
+                                    <label for="3followingsymptoms9">Heart disease</label>
+                                </div>
+                                <div class="cbhvr">
+                                    <input type="checkbox" id="3followingsymptoms10" name="followingsymptoms"
+                                        class="cb">
+                                    <label for="3followingsymptoms10">HIV/AIDS</label>
+                                </div>
+                                <div class="cbhvr">
+                                    <input type="checkbox" id="3followingsymptoms11" name="followingsymptoms"
+                                        class="cb">
+                                    <label for="3followingsymptoms11">A BMI of over 40</label>
+                                </div>
+                                <div class="cbhvr">
+                                    <input type="checkbox" id="3followingsymptoms12" name="followingsymptoms"
+                                        class="cb">
+                                    <label for="3followingsymptoms12">On chemotherapy or other immune suppressing
+                                        treatments</label>
+                                </div>
+                                <div class="cbhvr">
+                                    <input type="checkbox" id="3followingsymptoms13" name="followingsymptoms"
+                                        class="cb">
+                                    <label for="3followingsymptoms13">None of the above</label>
+                                </div>
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <center>
+            <button class="btn" type="submit">
+                <h4><i class='bx bxs-check-circle'></i> Submit</h4>
+            </button>
+        </center>
+    </div>
+
+
+    <script src="./static/js/app.js"></script>
+</body>
+
+</html>

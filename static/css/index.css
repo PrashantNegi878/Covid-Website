@@ -1,0 +1,225 @@
+h1,
+h3,
+h5,
+h6 {
+  text-transform: capitalize;
+}
+
+.box {
+  text-align: center;
+  width: auto;
+}
+
+.box-hover {
+  transition: transform 0.2s ease-in-out;
+}
+
+.box-hover2 {
+  transition: transform 0.2s ease-in-out;
+}
+
+.box-hover:hover {
+  transform: translateY(0px);
+  box-shadow: rgb(0 0 0 / 20%) 0px 15px 30px;
+}
+.box-hover2:hover {
+  transform: scale(1.1) translateY(-10px);
+  box-shadow: rgb(0 0 0 / 10%) 0px 15px 30px;
+}
+
+.prevention {
+  background: url("/static/images/1627374333365.png") no-repeat;
+  /* max-width: 100%; */
+  /* max-height: 100%; */
+  /* background:url(../images/home-bg.jpg) ; */
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  /* background-attachment: fixed; */
+}
+
+h6 {
+  font-size: 400%;
+}
+
+h5 {
+  font-size: 2rem;
+}
+
+/* .overlaytext {
+  color: brown; 
+} */
+
+/* .htp1 {
+  background: url("/static/images/htp\ \(1\).png") no-repeat;
+  height: 100%;
+}
+
+.htp2 {
+  background: url("/static/images/htp\ \(2\).png") no-repeat;
+}
+
+.htp3 {
+  background: url("/static/images/htp\ \(3\).png") no-repeat;
+} */
+
+.prevent .box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.prevent .box-container .box {
+  flex: 1 1 18rem;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  width: auto;
+}
+
+.prevent .box-container .box img {
+  height: 8rem;
+  padding: 1rem;
+}
+
+.prevent .box-container .box h3 {
+  color: var(--blue);
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+.prevent .box-container .box p {
+  color: var(--dark-blue);
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+/* .symptomsimg {
+  background: url(../images/background-img.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+} */
+
+.symptoms {
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+}
+
+.symptoms .box-container .box {
+  width: auto;
+}
+
+.symptoms .box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.symptoms .box-container .box {
+  margin: 1rem;
+  text-align: center;
+}
+
+.symptoms .box-container .box img {
+  width: 8rem;
+  padding: 1rem;
+}
+
+.symptoms .box-container .box h3 {
+  font-size: 1.5rem;
+}
+
+.handwash .box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.handwash .box-container .box {
+  /* background: #fff; */
+  /* border: 0.1rem solid rgba(0, 0, 0, 0.1); */
+  margin: 2rem;
+  /* margin-top: 3rem; */
+  padding: 2rem 3.5rem;
+  text-align: center;
+  /* position: relative; */
+}
+
+.handwash .box-container .box img {
+  /* height: 10rem; */
+  width: 8rem;
+}
+
+.handwash .box-container .box h3 {
+  font-size: 1.5rem;
+  /* color: #666; */
+  padding: 1rem 0;
+}
+
+.precautions-with-img {
+  /* background: url(../images/background-img.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; */
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.precautions .column {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.precautions .column .box-container {
+  margin: 0.5rem;
+  flex: 1 1 30rem;
+  /* border: 0.1rem solid rgba(0, 0, 0, 0.1); */
+  /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); */
+  /* border-radius: 0.5rem; */
+}
+
+.precautions .column .box-container .title {
+  padding: 1.5rem 0.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+  background: green;
+  border-radius: 00.5rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.precautions .column .box-container:last-child .title {
+  /* background: #ff3300; */
+  background-color: red;
+}
+
+.precautions .column .box-container .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  width: auto;
+}
+
+.precautions .column .box-container .box img {
+  width: 8rem;
+  padding: 1rem;
+}
+
+.precautions .column .box-container .box h3 {
+  font-size: 1rem;
+  /* color: var(--blue); */
+}
+
+.precautions .column .box-container .box p {
+  font-size: 1rem;
+  /* color: var(--dark-blue); */
+  padding: 1rem 0;
+}

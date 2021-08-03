@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  display: flex;
+
+  /* justify-content: center; */
+}
+
+.row {
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.box {
+  width: 100%;
+  border-radius: 10px;
+  background-color: var(--bg-content);
+  box-shadow: var(--shadow);
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+.info {
+  width: 70%;
+}
+
+.box-hover {
+  transition: transform 0.2s ease-in-out;
+}
+
+.box-hover:hover {
+  transform: translateY(0px);
+  box-shadow: rgb(0 0 0 / 20%) 0px 15px 30px;
+}
+
+h4 {
+  font-size: 1.2rem;
+}
+
+.rb {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.cb {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.rb:hover {
+  cursor: pointer;
+}
+
+.cb:hover {
+  cursor: pointer;
+}
+
+.rbhvr:hover {
+  /* background-color: #f4f4f4; */
+  /* --bg-hover: #a5c2fd; */
+  background-color: var(--bg-hover);
+}
+
+.cbhvr:hover {
+  /* background-color: #f4f4f4; */
+  /* --bg-hover: #a5c2fd; */
+  background-color: var(--bg-hover);
+}
+
+.btn {
+  background: rgb(0, 218, 0);
+  outline: none;
+  border: none;
+  height: 2.2rem;
+  width: 20%;
+  color: cornsilk;
+  font-size: 1.2rem;
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: "Cairo", sans-serif;
+  /* size: 2rem; */
+  border-radius: 0.5rem;
+  margin-bottom: 10%;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transition: transform 0.2s ease-in-out;
+
+  transform: scale(1.1) translateY(-10px);
+  box-shadow: rgb(0 0 0 / 20%) 0px 15px 30px;
+}
+
+.tb {
+  /* color: --var(--bg-body); */
+  background-color: var(--bg-content);
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  height: 2rem;
+  border-radius: 2rem;
+  border: none;
+  /* margin-top: 1rem; */
+  margin-bottom: 0.5rem;
+  /* font-family: "Montserrat", sans-serif; */
+  outline: none;
+}
+
+label {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+label:hover {
+  cursor: pointer;
+}
