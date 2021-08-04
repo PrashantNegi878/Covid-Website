@@ -25,7 +25,7 @@
 }
 
 .info {
-  width: 70%;
+  width: 100%;
 }
 
 .box-hover {
@@ -90,7 +90,7 @@ h4 {
 .btn:hover {
   transition: transform 0.2s ease-in-out;
 
-  transform: scale(1.1) translateY(-10px);
+  transform: scale(1.1) translateY(-3px);
   box-shadow: rgb(0 0 0 / 20%) 0px 15px 30px;
 }
 
